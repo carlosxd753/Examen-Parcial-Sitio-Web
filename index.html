@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frutix S.A.C</title>
+    <meta
+      name="description"
+      content="Pagina web sobre mayorista de frutas Frutix S.A.C"
+    />
+    <meta name="keywords" content="html,css,frutas,frutix,mayorista" />
+    <style>
+      img {
+        width: 270px;
+        height: 270px;
+      }
+
+      footer,
+      header {
+        text-align: center;
+      }
+
+      footer {
+        margin: 50px 0;
+      }
+
+      body {
+        margin: 0px 400px;
+        background-color: lightcoral;
+      }
+
+      h1,
+      h2 {
+        color: antiquewhite;
+      }
+
+      /* Estilo general para las imágenes y sus nombres */
+      div img {
+        width: 99%;
+        display: block;
+      }
+
+      div p {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 5px;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .container > article {
+        flex: 1 0 23%;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      p {
+        color: azure;
+      }
+
+      input[type="text"],
+      input[type="email"] {
+        width: 500px;
+      }
+
+      input[type="submit"] {
+        padding: 10px 20px;
+        color: lightcoral;
+        background-color: antiquewhite;
+        border-color: antiquewhite;
+        border-style: none;
+      }
+
+      footer p {
+        font-size: 25px;
+        color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Frutix S.A.C</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Sobre nosotros</h2>
+        <p>
+          En Frutix S.A.C, somos una empresa mayorista líder en la distribución
+          de frutas frescas de alta calidad. Con más de 10 años de experiencia
+          en el mercado, nos especializamos en proveer una amplia variedad de
+          frutas tanto locales como importadas, asegurando la frescura y calidad
+          en cada entrega. Trabajamos directamente con agricultores y
+          productores de confianza, lo que nos permite garantizar productos
+          frescos, sostenibles y cuidadosamente seleccionados para satisfacer
+          las necesidades de nuestros clientes. Desde mercados minoristas,
+          supermercados, hasta restaurantes y hoteles, nos esforzamos por
+          ofrecer frutas que cumplen con los más altos estándares. Nuestro
+          compromiso con la calidad y el servicio al cliente es la base de
+          nuestra filosofía. Gracias a un equipo dedicado y a una logística
+          eficiente, nos aseguramos de que nuestros productos lleguen a su
+          destino en óptimas condiciones y en el tiempo acordado. En Frutix
+          S.A.C, creemos en la importancia de una alimentación saludable y en
+          ofrecer lo mejor de la naturaleza a nuestros clientes, apoyando al
+          mismo tiempo a los productores locales y fomentando prácticas
+          comerciales sostenibles.
+        </p>
+      </section>
+
+      <section>
+        <h2>Nuestros productos</h2>
+        <div class="container">
+          <article>
+            <img src="img/fresa.jpg" alt="fresa" />
+            <p><b>Fresa</b></p>
+          </article>
+          <article>
+            <img src="img/mandarina.jpg" alt="mandarina" />
+            <p><b>Mandarina</b></p>
+          </article>
+          <article>
+            <img src="img/manzana.jpg" alt="manzana" />
+            <p><b>Manzana</b></p>
+          </article>
+          <article>
+            <img src="img/melon.jpg" alt="melon" />
+            <p><b>Melón</b></p>
+          </article>
+
+          <article>
+            <img src="img/naranja.jpg" alt="naranja" />
+            <p><b>Naranja</b></p>
+          </article>
+          <article>
+            <img src="img/pacay.jpg" alt="pacay" />
+            <p><b>Pacay</b></p>
+          </article>
+          <article>
+            <img src="img/platano.jpg" alt="platano" />
+            <p><b>Plátano</b></p>
+          </article>
+          <article>
+            <img src="img/sandia.jpg" alt="sandia" />
+            <p><b>Sandía</b></p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contactanos</h2>
+        <form action="">
+          <p>
+            <label for="nombre">Nombre de la empresa:</label>
+          </p>
+          <input type="text" id="nombre" name="nombre" />
+          <p>
+            <label for="email">Correo de la empresa:</label>
+          </p>
+          <input type="email" id="email" name="email" />
+          <p>
+            <label for="numero">Numero celular de la empresa:</label>
+          </p>
+          <input type="text" id="numero" name="numero" />
+          <p><input type="submit" value="Enviar" /></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p><b>Frutix S.A.C</b></p>
+    </footer>
+  </body>
+</html>
